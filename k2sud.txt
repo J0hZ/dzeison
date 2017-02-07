@@ -1,0 +1,17 @@
+https://siseveeb.ee/vikk/veebilehe_andmed/tunniplaan?nadal=2016-10-10&nimekiri=grupp
+
+
+&nimekiri=grupp
+&nimekiri=opetaja
+&nimekiri=naita_koik
+
+
+{"abi":"Tunniplaani andmete vaatamiseks on mitu võimalust. 
+Esiteks saab vaadata andmeid kas päeva või nädala vaates. Selleks peab olema täidetud GET parameeter 'paev' või 'nadal'. 
+GET parameetri 'paev' väärtus peab olema kuupäev kujul YYYY-MM-DD, nädala väärtus on sama vorminguga esmaspäeva kuupäev. 
+Teiseks saab vaadata antud päeva või nädala kohta tunniplaani nimekirju. Sel juhul peab GET parameeter 'nimekiri' olema võrdne ühega väärtustest 'grupp', 'opetaja' või 'ruum'. 
+Vaikimisi näidatakse nimekirjas vaid neid gruppe\/õpetajaid\/ruume, millega on vaadeldavas ajaperioodis seotud tunniplaani kirjeid. 
+Kui lisada päringule GET parameeter naita_koik väärtusega jah, siis näidatakse kõiki õppegruppe\/õpetajaid\/ruume. 
+Konkreetse tunniplaani vaatamiseks tuleb parameetri 'grupp', 'opetaja' või 'ruum' väärtuseks märkida vastava andmeobjekti ID-väärtus. 
+Kui tulemust on vaja piirata hoonega, siis lisada GET parameetrile 'hoone' vastava õppekorpuse väärtus ('KPL' või 'POL'). 
+Kui GET parameeter 'jsonp' omab väärtust, tagastakse vastava väärtusega JSONP funktsioon."}

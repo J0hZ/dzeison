@@ -1,0 +1,24 @@
+-------------TEGEMISEL-------------------
++                                   Overlay- luua blur taustal olevale.                                     +
+
+
+
+-------------TÄHTIS DISAIN---------------EZ
+Kasti suurused paika.
++                                   Õpetajate ja ruumide loend paika.                                       +
+
+
+
+-------------TÄHTIS FUNKTSIONAALSUS---------------HARD
+
+
+Lisada if päevatunnid täidetud kuva info, - kui mitte kuva tühi kast kirjas "Puuduvad tunnid".
+Lisada if kui nädalas on rohkem kui 5 päeva täidetud tundidega siis lisa ka laupäev ning pühapäev ning muuda mõõtmed vastavalt 7päeva nädala jaoks.
+
+
+
+
+------------VÄHEM TÄHTIS-------------------HARD
+Täida tunniplaan vastavalt kellaajale.
+
+------------VÄHEM TÄHTIS-----------------

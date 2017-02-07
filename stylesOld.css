@@ -1,0 +1,167 @@
+body{
+    
+    margin: 20px 40px 40px 20px;
+    background-color: #DCDCDC;
+    font-family: "Century Gothic" ,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+a:link , a:visited{
+    color:white;
+}
+
+h1{
+    color:black;
+    font-size:40px;
+}
+.container{
+    text-align: center;
+    width:100%;
+    height:65px;
+}
+.container a{
+    display:absolute;
+    padding: 20px 60px 20px 60px;
+    background-color:#9B9B9B ;
+    font-size: 175%;
+}
+.container a:link, .grupp a:visited{
+    color: white;
+}
+.Prev{
+    float:left;
+    width:20%;
+    margin-left:20px;
+}
+.Next{
+    float:right;
+    width:20%;
+    margin-right:20px;
+}
+
+.grupid{
+
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
+.grupp{
+    width:145px;
+    margin: 3px;
+    text-align: center;
+    background-color: #BCBCBC;
+}
+.grupp a{
+     display:block;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     font-size: 150%;
+
+}
+
+.tund{
+    width:20%;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    position:relative;
+    height:80px;
+}
+
+.tunniplaan{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.con-esmaspaev,
+.con-teisipaev,
+.con-kolmapaev,
+.con-neljapaev,
+.con-reede
+{
+    position:absolute;
+}
+
+.esmaspaev{
+    width:20%;
+   margin-left:0%;  
+    margin-right:100%;
+}
+.teisipaev{
+    width:20%;
+  margin-left:20%; 
+    margin-right:100%;
+}
+.kolmapaev{
+    width:20%;
+   margin-left:40%; 
+    margin-right:100%;
+}
+.neljapaev{
+    width:20%;
+    margin-left:60%; 
+    margin-right:100%;
+}
+.reede{
+    width:20%;
+    margin-left:80%; 
+    margin-right:100%;
+}
+
+.tund0{
+    margin-top:80px;
+}
+.tund1{
+    margin-top:160px;
+}
+.tund2{
+    margin-top:240px;
+}
+.tund3{
+    margin-top:320px;
+}
+.tund4{
+    margin-top:400px;
+}
+.tund5{
+    margin-top:480px;
+}
+.tund6{
+    margin-top:560px;
+}
+.tund7{
+    margin-top:640px;
+}
+.tund8{
+    margin-top:720px;
+}
+
+.Home{
+    position: fixed;
+    right: 15px;
+    bottom: 65px;
+    color:white;
+    border-radius: 100%;
+    padding: 15px;
+    margin:5px;
+    background: radial-gradient(ellipse at center, rgba(170,170,170,1) 0%, rgba(170,170,170,1) 63%, rgba(255,255,255,1) 65%, rgba(170,170,170,1) 66%, rgba(0,166,255,1) 73%, rgba(0,166,255,1) 100%);
+    opacity:0.5;
+    filter:blur(0.25px);
+}
+.Home:hover{
+    opacity: 1.0;
+    filter:blur(0);
+}
+
+.clockbox {
+    clear:both;
+    margin-top: 15px;
+    margin-left: 30px;
+    background:#DCDCDC;
+    color:#8D8D8D;
+    font-size:250%;
+    font-weight: 700;
+}

@@ -1,0 +1,303 @@
+#ads{
+   display: none !important;
+}
+
+html{
+    position: relative;
+}
+body{
+    margin: 20px 40px 40px 20px;
+    background-color: #DdDdDd;
+    font-family: "Century Gothic" ,sans-serif;
+}
+.valik{
+    display:flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+.valigrupp,.valiopetaja,.valiruum{
+    width:33%;
+    font-size: 72px;
+    text-align: center;
+}
+.valigrupp{
+    background-color: rgba(145,218,228,0.8);
+}
+.valiopetaja{
+    background-color: rgba(255,152,152,0.8);
+}
+.valiruum{
+    background-color: rgba(198,234,178,0.8);
+}
+.valigrupp a ,.valiopetaja a,.valiruum a{
+    display:inline-block;
+    vertical-align: middle;
+    padding-top: 24vh; 
+    padding-bottom: 24vh;
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
+a:link , a:visited{
+    color:white;
+}
+.container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:relative;
+    text-align: center;
+    width:100%;
+    height:65px;
+    align-content: center;
+}
+.container a{
+    background-color:#9B9B9B ;
+    font-size: 175%;
+}
+.container a:link, .grupp a:visited{
+    color: white;
+}
+h1{
+    display:inline-block;
+    vertical-align: middle;
+    width:20%;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 60px 15px 60px;
+    color:black;
+    font-size:40px;
+    text-align: center;
+}
+h2{
+    padding-top:5px;
+    margin-top:10px;
+    line-height:0;
+    font-size:20px;
+}
+h3{
+    padding-top:5px;
+    line-height:0;
+    font-size:19px;
+}
+.Prev{
+    vertical-align: middle;
+    float:left;
+    margin-left: 30px;
+    position: relative;
+}
+.Next{
+    vertical-align: middle;
+    float:right;
+    margin-right:30px; 
+    position: relative;
+}
+.Prev a{
+    display:inline-block;
+     padding: 20px 60px 20px 60px;   
+}
+.Next a{
+    display:inline-block;
+     padding: 20px 60px 20px 60px;   
+}
+
+.grupid, .opetajad, .ruumid{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+.grupp, .opetaja,.ruum{
+    width:145px;
+    margin: 3px;
+    text-align: center;
+    background-color: #BCBCBC;
+}
+.grupp a,.opetaja a,.ruum a{
+     display:block;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     font-size: 150%;
+}
+.tund{
+    margin-bottom:15px;
+    padding-bottom:20px;
+    padding-left: 10px;
+    width:100%;
+    box-sizing: border-box;
+    height:auto;
+    background-color: #BCBCBC;
+    font-size:1em;
+    line-height: 120%;
+    font-weight:bold;
+    position:relative;
+}
+.tunniplaan{
+    position: relative;
+    overflow: hidden;
+}
+.esmaspaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.teisipaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.kolmapaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.neljapaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.reede{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.laupaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.puhapaev{
+    margin-left:0.05%;
+    margin-right:0.05%;
+    width:14.2%;
+    float:left;
+}
+.tund0{
+    margin-top:80px;
+}
+.tund1{
+    margin-top:160px;
+}
+.tund2{
+    margin-top:240px;
+}
+.tund3{
+    margin-top:320px;
+}
+.tund4{
+    margin-top:400px;
+}
+.tund5{
+    margin-top:480px;
+}
+.tund6{
+    margin-top:560px;
+}
+.tund7{
+    margin-top:640px;
+}
+.tund8{
+    margin-top:720px;
+}
+#footer{
+    bottom:0;
+    position: fixed;
+}
+#jalus{
+    clear:both;
+}
+.Home{
+    position: fixed;
+    right: 15px;
+    bottom: 65px;
+}
+.Back{
+    position: fixed;
+    right: 100px;
+    bottom: 65px;
+}
+.Quick{
+    position: fixed;
+    left: 15px;
+    bottom: 65px;
+}
+.Home a, .Back a, .Quick span{
+    padding: 15px;
+    display:block;
+}
+
+.Home a:hover, .Back a:hover, .Quick span:hover{
+    opacity: 1.0;
+    filter:blur(0);
+}
+
+.fa{
+    margin:5px;
+    z-index: 1;
+    color:white;
+    border-radius: 100%;
+    background: radial-gradient(ellipse at center, rgba(170,170,170,1) 0%, rgba(170,170,170,1) 63%, rgba(255,255,255,1) 65%, rgba(170,170,170,1) 66%, rgba(0,166,255,1) 73%, rgba(0,166,255,1) 100%);
+    opacity:0.5;
+    filter:blur(0.25px);
+}
+
+
+
+
+
+.clockbox {
+    overflow: hidden;  
+    position: relative;
+   /* bottom: 65px;*/
+    clear:both;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color:rgb(220,220,220,0);
+    color:#8D8D8D;
+    font-size:225%;
+    font-weight: 700;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(241,220,217, 0.5);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 54px;
+    vertical-align: top;
+}
+.navigrupp, .naviopetaja,.naviruum{
+    display:inline-block;
+}
+.overlay a {
+    padding: 75px;
+    color: #818181;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 120px;
+}
